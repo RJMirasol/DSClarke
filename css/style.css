@@ -101,7 +101,7 @@ img {
       rgba(255, 255, 255, 0.5) 0%,
       rgba(71, 144, 228, 0.7) 100%
     ),
-    url(../images/DBlocation.png);
+    url(../images/DB_office.jpg);
   margin-bottom: 50px;
   background-position: center;
   background-size: cover;
@@ -127,6 +127,108 @@ img {
 
 .hero .hero-text {
   padding-bottom: 36px;
+}
+
+/* About Us */
+.about-us {
+  width: 100%;
+  margin: auto;
+}
+
+.about-para {
+  padding-bottom: 40px;
+}
+
+/* Services */
+
+.services {
+  min-height: 80vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.services .top-service {
+  display: flex;
+  align-items: center;
+}
+
+.services .top-service .img-top {
+  flex: 1 1 45rem;
+}
+.services .top-service .img-top img {
+  width: 100%;
+}
+
+.services .top-service .services-top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex: 1 1 45rem;
+}
+
+.services .top-service .services-top-content h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.services .top-service .services-top-content p {
+  padding: 1rem;
+}
+
+.services .bottom-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.services .bottom-service .img-bottom {
+  flex: 1 1 45rem;
+}
+.services .bottom-service .img-bottom img {
+  width: 100%;
+}
+
+.services .bottom-service .services-bottom-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex: 1 1 45rem;
+}
+
+.services .bottom-service .services-bottom-content h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.services .bottom-service .services-bottom-content p {
+  padding: 1rem;
+}
+
+/* Query Form */
+.question {
+  min-height: 80vh;
+}
+
+.question .container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question .container input,
+.question .container textarea {
+  width: 50%;
+  padding: 15px;
+  background: #b9d3f0;
+  margin-bottom: 25px;
+  outline: none;
+  border: 1px solid #ccc;
 }
 
 /* Utility Classes*/
@@ -157,9 +259,28 @@ img {
   transition: 0.5s;
 }
 
+.btn-lmore {
+  padding: 3px 15px;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  box-shadow: -1px 20px 210px 4px rgba(44, 90, 105, 0.4);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 .btn:hover {
   opacity: 0.8;
   color: var(--black10);
+}
+
+.btn-lmore:hover {
+  opacity: 0.8;
+  color: var(--black10);
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
 }
 
 .btn-block {
@@ -212,4 +333,9 @@ img {
 
 .text-center {
   text-align: center;
+}
+
+/* Background */
+.bg-black10 {
+  background: var(--black10);
 }
